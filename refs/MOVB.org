@@ -1,0 +1,8 @@
+* NAME
+ MOVB - Move one byte to destination.
+
+* SYNOPSIS
+
+* DESCRIPTION
+
+* EXAMPLES

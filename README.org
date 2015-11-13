@@ -7,3 +7,13 @@ http://www.felixcloutier.com/x86/. Others are collected from the Internet.
 Please let me know if there is any copyright issues.
 
 * Integrate with Emacs
+
+There is a simple package named [[https://github.com/yangyingchao/x86-help/blob/master/elisp/x86-help.el][x86-help.el]] in this repository, you can use it to integrate
+this x86-help into emacs. Simply add  [[https://github.com/yangyingchao/x86-help/blob/master/elisp/x86-help.el][x86-help.el]] into load-path of Emacs, and add following
+lines into =.emacs= file:
+
+#+BEGIN_SRC emacs-lisp -r -n
+  (autoload 'x86-help "x86-help" "show help for x86 assembly instructions." t)
+  (autoload 'x86-help-new-ref "x86-help" "create new reference." t)
+  (global-set-key (kbd "C-h x") #'x86-help)
+#+END_SRC
