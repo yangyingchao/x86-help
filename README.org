@@ -1,0 +1,9 @@
+* Introduction
+
+This is a collection of description of x86 assembly instructions. Some of them were
+generated from Intel's manual, and can be downloaded from
+http://www.felixcloutier.com/x86/. Others are collected from the Internet.
+
+Please let me know if there is any copyright issues.
+
+* Integrate with Emacs
